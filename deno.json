@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^1.0.6",
+    "@std/fs": "jsr:@std/fs@^1.0.5",
+    "@std/http": "jsr:@std/http@^1.0.9",
+    "cheerio": "npm:cheerio@^1.0.0"
+  },
+  "tasks": {
+    "start": "deno run main.ts \"$INIT_CWD\"",
+    "start-allow": "deno run --allow-all main.ts \"$INIT_CWD\""
+  }
+}
